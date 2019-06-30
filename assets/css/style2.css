@@ -1,18 +1,18 @@
 body{
   font-family: 'Oswald', sans-serif;
-  color: #1c2931;
+  color: #000000;
   overflow: hiddMen !important;
-  background-color: #edf1cd;
+  background-color: #ffffff;
   padding-left: 2em;
   text-align: left;
 }
 
 .menu{
-  background-color: #1c2931;
+  background-color: #000000;
 }
 
 .contenido{
-  background-color: #edf1cd;
+  background-color: #ffffff;
   height: 300vh;
   padding-left: 2em;
   padding-right: 2em;
@@ -20,6 +20,11 @@ body{
   padding-bottom: 2em;
 
 }
+.detalle{
+padding-top: 2em;
+width: 300px;
+}
+
 .Logo{
   background: pink;
   height: 100px;
@@ -36,7 +41,7 @@ body{
 }
 .historiapropia{
   width: 800px;
-  height: 600px;
+  height: 300px;
 }
 
 .link{
@@ -65,8 +70,8 @@ ul3{
   align-self: auto;
 }
 a{
-  color: #edf1cd;
-  font-size: 21px;
+  color: #ffffff;
+  font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1.6;
   padding-top: 1em;
@@ -77,7 +82,7 @@ a{
 a:hover{
   color: #f59b17;
   text-decoration: underline;
-  text-decoration-color: #bad479;
+  text-decoration-color: #ffffff;
 }
 .anexo{
   color: #3d3868 ;
@@ -93,6 +98,19 @@ a:hover{
   text-decoration: underline;
   text-decoration-color: #1c2931;
 }
+.anexo2{
+  color: #3d3868 ;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.6;
+  padding-bottom: 1em;
+}
+.gris{
+  filter: grayscale(1);
+  transition:all ease-out 1s;
+
+
+}
 p{
   font-family: 'Nunito', sans-serif;
   padding-bottom: 0.5em;
@@ -102,18 +120,29 @@ p{
 p2{
   font-size: 14px;
   font-family: 'Nunito', sans-serif;
-  width: 600px;
+
+
 }
 p3{
-  font-size: 36px;
   font-family: 'Nunito', sans-serif;
-  width: 600px;
+  padding-bottom: 0.5em;
+  width: 300px;
+  font-size: 14px;
 }
-img:hov er {
+element.style {
+    width: 100%;
+    cursor: pointer;
+}
 
-transform:scale(1.99);
+
+
+.ga66l:hov77777er {
+
+transform:scale(5);
 
 filter: grayscale(0);
+
+align-items: left;
 
 transition:all ease-out 0.5s;
 
